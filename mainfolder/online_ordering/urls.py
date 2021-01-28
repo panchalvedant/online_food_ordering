@@ -1,4 +1,5 @@
-from django.contrib import path
+
+from django.urls import path
 from online_ordering import views
 
 urlpatterns = [
