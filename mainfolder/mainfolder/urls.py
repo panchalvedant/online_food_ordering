@@ -18,5 +18,7 @@ from django.urls import path, include
 from django.conf.urls import url
 urlpatterns = [
 url(r'^admin/', admin.site.urls),
+path('firstdbtest/', include('firstdbtest.urls')),
 path('loginmodule/', include('loginmodule.urls')),
+path('online_ordering/',include('online_ordering.urls')),
 ]
